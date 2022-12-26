@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "799879130145",
+    "project_id": "kalbunyan-19017",
+    "storage_bucket": "kalbunyan-19017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799879130145:android:a7936cf14128eb9ad7c760",
+        "android_client_info": {
+          "package_name": "com.example.kalbonyan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799879130145-ncfvdrgodg9lco9n9l3p30q83ngi2n74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kalbonyan",
+            "certificate_hash": "70153e7e60a7d50b3b101bf3c17cf74b30771a87"
+          }
+        },
+        {
+          "client_id": "799879130145-95757tad21h3l1j87vc8v9la1e1r4raq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9bgPj0CTER0hl6gBdm-hZE3ujzNhLkWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799879130145-95757tad21h3l1j87vc8v9la1e1r4raq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

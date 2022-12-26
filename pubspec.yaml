@@ -1,0 +1,86 @@
+name: kalbonyan
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0-374.1.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.1
+  shared_preferences: ^2.0.15
+  flutter_local_notifications: ^13.0.0
+  dio: ^4.0.6
+  internet_connection_checker: ^1.0.0+1
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.1
+  firebase_messaging: ^14.1.4
+  location: ^4.4.0
+  google_maps_flutter: ^2.2.2
+  intl_phone_field: ^3.1.0
+  bloc: ^8.1.0
+  pin_code_fields: ^7.4.0
+  dropdown_button2: ^1.9.2
+  cloud_firestore: ^4.3.0
+  fluttertoast: ^8.1.2
+  intl: ^0.18.0
+  awesome_dialog: ^3.0.2
+  equatable: ^2.0.5
+  syncfusion_flutter_maps: ^20.4.38
+  geocoding: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Tajawal-ExtraLight.ttf
+          weight: 200
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
